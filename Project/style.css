@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+
+ .Register{
+    width: 15rem;
+    height: 4rem;
+    padding: 1rem 3rem;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+    font-family: Montserrat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 50rem;
+    line-height: 1.829rem;
+    background-color:  #18A0FB;
+    font-size: 1.5rem;
+    color:#FFFFFF;
+    ;
+}
+.Login{
+    width: 15rem;
+    height: 4rem;
+    padding: 1rem 3rem;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+    font-family: Montserrat;
+    border:0.01rem solid #18A0FB ;
+    outline: none;
+    cursor: pointer;
+    font-weight: 50rem;
+    line-height: 1.829rem;
+    background-color: #FFFFFF;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color:  #18A0FB;
+    
+}
+
+header{
+    padding: 0 20rem;
+
+}
+
+header nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+}
+
+header nav .left-side-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    
+}
+
+header nav .left-side-menu .logo{
+    width: 13rem;
+    font-family: "Comfortaa";
+    font-size: 2.844rem;
+    font-weight: 400;
+    line-height: 3.172rem;
+    letter-spacing: -0.015em;
+    text-align: center;
+  
+}
+
+header nav .left-side-menu a {
+    width: 13rem;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.829rem;
+    letter-spacing: -0.015em;
+    color: #202020;
+  }
+
+header nav .left-side-menu .sub-menu{
+    height: inherit;
+    display: flex;
+}
+
+header nav .left-side-menu .sub-menu{
+    margin-left: 20rem;
+}
+header nav .left-side-menu .sub-menu a{
+    margin-right:0.2rem ;
+}
+
+
+
+header nav .left-side-menu .sub-menu a li{
+    font-size: 2rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+header nav .left-side-menu .sub-menu a li:hover{
+    color:#18A0FB;
+}
+
+
+header .right-side-menu{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+header .right-side-menu .sub-menu{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero-image img{
+ width: 100%;
+ height: 60rem;
+ position: relative;
+ background: #18A0FB;
+ filter:contrast(50%) ;
+ -webkit-filter:contrast(50%) ;
+}
+
+
+
+.content{
+  position: absolute;
+  top: 51rem;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
+
+.img-text{
+    color: #fff;
+    font-size: 5.6rem;
+    font-weight: 400;
+    
+}
+
+
+.grid {
+    display: grid;
+    gap: 4rem;
+}
+
+.grid-four-column{
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid-two-column{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-three-column{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.body-c{
+    margin-top: 4rem;
+    margin-left: 12rem;
+}
+.container {
+    padding: 4rem 0;
+}
+
+.body-c-cards{
+    text-align:start;
+}
+
+.body-c-cards p{
+    font-size: 1.8rem;
+    padding: 3rem 0;
+    width: 60rem;
+}
+
+.body-c-cards h4{
+    font-size: 2.4rem;
+}
+
+.container h2{
+    font-size: 4.8rem;
+    width: 72.5rem;
+}
+
+.body-j{
+    height: 110.2rem;
+   margin-top: 8rem;
+   margin-left: 12rem;
+
+}
+.heading{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 3rem;
+   
+}
+
+.heading h3{
+    font-family: Montserrat;
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 7.2rem;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+}
+
+.heading p{
+width: 100.2rem;
+font-family: Montserrat;
+font-size: 3.6rem;
+font-weight: 400;
+line-height: 5rem;
+letter-spacing: -0.015em;
+text-align: center;
+
+}
+
+
+
+.container2{
+    margin-top: 10rem;
+}
+
+.left-side-content{
+    margin:auto;
+}
+
+.content2{
+    padding: 1rem;
+}
+
+.content2 h4{
+    padding: 1rem 0;
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+
+.content2 p{
+    
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.0rem;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+
+.right-side-content .img img{
+    width: 80.7rem;
+    height: 73.8rem;
+    margin-right: 5rem;
+    
+}
+
+.body-l{
+   height: 100.2rem;
+   margin-top: 8rem;
+   margin-left: 12rem;
+
+}
+
+.cards img{
+    width: 100%;
+    height: 20.6rem;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+   
+}
+
+.cards{
+    text-align: center;
+    border: 0.1rem solid #cccccc;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    margin: 10rem 5rem 0 0;
+
+   
+}
+
+.cards p {
+ width: 30rem;   
+padding: 3rem 0 3rem 5rem;
+ font-family: Montserrat;
+font-size: 1.8rem;
+line-height: 3.0rem;
+letter-spacing: -0.015em;
+text-align:left;
+
+
+}
+
+.cards h6{
+margin-top: 2rem;
+ font-family: Montserrat;
+font-size: 2.4rem;
+line-height: 3.6rem;
+letter-spacing: -0.015em;
+text-align: center;
+margin-left: 2rem;
+
+}
+
+
+.signUp{
+    height: 80.2rem;
+    margin: 8rem 10rem 0 5rem;
+   
+}
+
+.signupform{
+    width: 60rem;
+    height: 46.9rem;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border: 0.1rem solid black;
+   
+   
+    
+}
+
+
+.section-form{
+    width: 100%;
+    height: 50.9rem;
+    
+   
+}
+
+
+.section-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 5rem 2rem 10rem 2rem ;
+}
+
+.section-form input {
+    padding: 1rem 2rem;
+    width: 100%;
+    border: 0.1px solid #C4C4C4;
+    font-family: Montserrat;
+    font-size: 1.5re;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+    
+}
+
+.section-form input[type='password'] {
+    width: 100%;
+}
+
+.signupform h2{
+width: 100%;
+margin-top: 5rem ;
+margin-left: 2rem;
+
+font-family: Montserrat;
+font-size: 2.4rem;
+line-height: 3.6rem;
+letter-spacing: -0.015em;
+text-align: left;
+
+
+}
+
+
+::placeholder{
+font-family: Montserrat;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 2.4rem;
+letter-spacing: -0.015em;
+text-align: left;
+color:  #C4C4C4;
+
+
+}
+
+.footer{
+    
+    height: 32.2rem;
+    margin-top: 65rem;
+    background: #000000CC;
+    padding: 5rem 5rem;
+ 
+ }
+
+
+
+ .footer h3{
+    color: #fff;
+ }
+ .footer h2{
+    color: #fff;
+ }
+ .footer .left-side-cont h2{
+    width: 12.207rem;
+    height: 3.2rem;
+    font-family: Comfortaa;
+    font-size: 2.844rem;
+    font-weight: 400;
+    line-height: 3.172rem;
+    letter-spacing: -0.015em;
+}
+
+
+.right-side-cont h3{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.right-side-cont li{
+font-family: Montserrat;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 2.4rem;
+letter-spacing: -0.015em;
+text-align: left;
+color: #FFFFFFCC;
+
+
+}
+
+.footer-down-content{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.footer-down-right-contend{
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-down-right-contend  ul{
+    display: flex;
+    gap: 5rem;
+    font-size: 2.5rem;
+ 
+    
+}
+
+
+.footer-down-right-contend  p{
+font-family: Montserrat;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 2.4rem;
+letter-spacing: -0.015em;
+margin: auto;
+color: #FFFFFFCC;
+
+
+}
+
+
+.footer-down-right-contend  ul li{
+    border: 0.1px solid #4B4B4B;
+    border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   -ms-border-radius: 100%;
+   -o-border-radius: 100%;
+   width: 5rem;
+   height: 5rem;
+   text-align: center;
+   padding-top: 1rem;
+   background-color: #4B4B4B;
+   
+}
+
+.social-icons i{
+    color: #fff;
+}
+.btn-section .Register{
+    margin-left: 1rem;
+}
+
+span h1{
+    width: 100%;
+    height: 0.2rem;
+    background-color: #FFFFFF80;
+    margin-top: 3rem;
+
+}
+
+
